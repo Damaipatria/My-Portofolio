@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import App from './App';
 import './index.css';
 
@@ -10,7 +10,7 @@ import KontakKamiWM from './warung_makan/kontak_kami';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <BrowserRouter>
+  <HashRouter basename='/'>
     <Routes>
       <Route path='/' element={<App title='DamaiPs' />} />
 
@@ -19,6 +19,6 @@ root.render(
       <Route path='warung-makan/kontak-kami' element={<KontakKamiWM title='Warung MS | Kontak Kami' />} />
 
     </Routes>
-  </BrowserRouter>
+  </HashRouter>
 );
 
