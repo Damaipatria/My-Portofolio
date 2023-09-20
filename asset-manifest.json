@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/My-Protofolio/static/css/main.ae090394.css",
-    "main.js": "/My-Protofolio/static/js/main.8ed605f8.js",
+    "main.js": "/My-Protofolio/static/js/main.098bf3ab.js",
     "static/media/header.jpg": "/My-Protofolio/static/media/header.cd388761d9d2534799bf.jpg",
     "static/media/hotdog.jpg": "/My-Protofolio/static/media/hotdog.c92faf943e8b4aa717f2.jpg",
     "static/media/es-jeruk.jpg": "/My-Protofolio/static/media/es-jeruk.93513a6e2b8ba468c37c.jpg",
@@ -11,6 +11,7 @@
     "static/media/chef.jpg": "/My-Protofolio/static/media/chef.4d34f7a65a8f7a6128a8.jpg",
     "static/media/grocery.jpg": "/My-Protofolio/static/media/grocery.894fad328684ae715aac.jpg",
     "static/media/es-teh.jpg": "/My-Protofolio/static/media/es-teh.3b2571ba9a4a4fff1818.jpg",
+    "static/media/personal_image.jpg": "/My-Protofolio/static/media/personal_image.1d5b0d708d496a6b3e5c.jpg",
     "static/media/coding_image.jpg": "/My-Protofolio/static/media/coding_image.7300dcf19af89c619d2b.jpg",
     "static/media/warung_makan_sepuasnya.png": "/My-Protofolio/static/media/warung_makan_sepuasnya.0e0f9c149cdb4ed37c5f.png",
     "static/media/laravel_logo.png": "/My-Protofolio/static/media/laravel_logo.cb95b1a0c9cf51a930df.png",
@@ -20,10 +21,10 @@
     "static/media/python_logo.png": "/My-Protofolio/static/media/python_logo.9c47735ea0c4a2d20349.png",
     "index.html": "/My-Protofolio/index.html",
     "main.ae090394.css.map": "/My-Protofolio/static/css/main.ae090394.css.map",
-    "main.8ed605f8.js.map": "/My-Protofolio/static/js/main.8ed605f8.js.map"
+    "main.098bf3ab.js.map": "/My-Protofolio/static/js/main.098bf3ab.js.map"
   },
   "entrypoints": [
     "static/css/main.ae090394.css",
-    "static/js/main.8ed605f8.js"
+    "static/js/main.098bf3ab.js"
   ]
 }
