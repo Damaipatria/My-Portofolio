@@ -10,13 +10,13 @@ import KontakKamiWM from './warung_makan/kontak_kami';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <HashRouter basename='/'>
+  <HashRouter >
     <Routes>
-      <Route path='/' element={<App title='DamaiPs' />} />
+      <Route path='/' Component={App} />
 
-      <Route path='warung-makan/beranda' element={<BerandaWM title='Warung MS | Beranda' />} />
-      <Route path='warung-makan/pesan' element={<PesanWM title='Warung MS | Pesan' />} />
-      <Route path='warung-makan/kontak-kami' element={<KontakKamiWM title='Warung MS | Kontak Kami' />} />
+      <Route path='warung-makan/beranda' Component={BerandaWM} />
+      <Route path='warung-makan/pesan' Component={PesanWM} />
+      <Route path='warung-makan/kontak-kami' Component={KontakKamiWM} />
 
     </Routes>
   </HashRouter>

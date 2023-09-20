@@ -11,10 +11,10 @@ import 'leaflet/dist/leaflet.css';
 import { useEffect } from "react";
 
 
-function KontakKami(props) {
+function KontakKami() {
   useEffect(() => {
-    document.title = props.title
-  }, [props.title])
+    document.title = 'WM Sepuasnya | Kontak Kami'
+  }, [])
 
   return (
     <>

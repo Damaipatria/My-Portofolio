@@ -55,7 +55,7 @@ function reducer(pesanan, action) {
   }
 }
 
-function Pesan(props) {
+function Pesan() {
 
   const [filter, setFilter] = useState([])
   const [pesanan, dispatch] = useReducer(reducer, [])
@@ -63,7 +63,7 @@ function Pesan(props) {
   const [cartHideShow, setCartHideShow] = useState('hide')
 
   useEffect(() => {
-    document.title = props.title
+    document.title = 'WM Sepuasnya | Pesan'
     if (kategori === 'semua') {
       setFilter(Menu)
     } else {
@@ -71,7 +71,7 @@ function Pesan(props) {
         return item.kategori === kategori
       }))
     }
-  }, [kategori, props.title])
+  }, [kategori])
 
   return (
     <>

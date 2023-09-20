@@ -4,14 +4,8 @@ import { faEnvelope as farEnvelope } from '@fortawesome/free-regular-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Portofolio from './assets/data/Portofolio'
 import './App.css';
-import { useEffect } from 'react';
 
 function App(props) {
-
-  useEffect(() => {
-    document.title = props.title
-  }, [props.title])
-
   return (
     <>
       <header>
@@ -94,7 +88,7 @@ function App(props) {
             </div>
             <div className='col-lg-5 col-md-5 col-12 order-md-2 order-1'>
               <div className='blob shadow m-auto'>
-                <img src={require('./assets/img/warung_makan/chef.jpg')} alt='img-person' className='img-fluid' />
+                <img src={require('./assets/img/personal_image.jpg')} alt='img-person' className='img-fluid' />
               </div>
             </div>
           </div>
@@ -189,7 +183,7 @@ function App(props) {
                             </a>
                           </div>
                           <div className='col-4 text-center'>
-                            <a href={item.demo} target='blank' className='text-decoration-none text-dark'>
+                            <a href={`/My-Protofolio/${item.demo}`} target='blank' className='text-decoration-none text-dark'>
                               <span className='me-3 fs-5'>
                                 Demo
                               </span>

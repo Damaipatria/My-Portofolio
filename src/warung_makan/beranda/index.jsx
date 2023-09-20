@@ -52,13 +52,13 @@ const makananTerbaik = [
   }
 ]
 
-function BerandaWarungMakan(props) {
+function BerandaWarungMakan() {
   let judulHeader = "warung makan sepuasnya"
   let paragrafHeader = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint iusto exercitationem similique corporis, numquam vel ut alias incidunt molestias. Nam itaque repellendus quam laudantium dolorem ullam mollitia porro laboriosam corporis."
 
   useEffect(() => {
-    document.title = props.title
-  }, [props.title])
+    document.title = 'WM Sepuasnya | Beranda'
+  }, [])
 
   return (
     <>

@@ -9,13 +9,13 @@ function Header(props) {
       <div>
         <Navbar expand="lg" data-bs-theme="dark" className="p-0 z-2" style={{ backgroundColor: '#202020' }}>
           <Container>
-            <Navbar.Brand href="/warung-makan/beranda" className="fw-medium fs-4 text-uppercase text-white">RM.Sepuasnya</Navbar.Brand>
+            <Navbar.Brand href="/My-Protofolio/#/warung-makan/beranda" className="fw-medium fs-4 text-uppercase text-white">RM.Sepuasnya</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav" className="justify-content-center text-white">
               <Nav >
-                <Nav.Link href="/warung-makan/beranda" className="text-white mx-3">Beranda</Nav.Link>
-                <Nav.Link href="/warung-makan/pesan" className="text-white mx-3">Pesan</Nav.Link>
-                <Nav.Link href="/warung-makan/kontak-kami" className="text-white mx-3">Kontak Kami</Nav.Link>
+                <Nav.Link href="/My-Protofolio/#/warung-makan/beranda" className="text-white mx-3">Beranda</Nav.Link>
+                <Nav.Link href="/My-Protofolio/#/warung-makan/pesan" className="text-white mx-3">Pesan</Nav.Link>
+                <Nav.Link href="/My-Protofolio/#/warung-makan/kontak-kami" className="text-white mx-3">Kontak Kami</Nav.Link>
               </Nav>
             </Navbar.Collapse>
           </Container>
