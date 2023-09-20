@@ -1,38 +1,110 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css?family=Quicksand&&family=Nunito');
+@import url('https://fonts.googleapis.com/css?family=Nunito:wght@1000&display=swap');
+/* @import url('https://fonts.googleapis.com/css?family=Nunito'); */
+
+h1,h3, .font-quicksand {
+  font-family: 'Nunitosans', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.font-nunito {
+  font-family:  'Nunito';
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+p {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.height-full {
+  height: 100vh;
+}
+
+.img-full {
+  width: 100%;
+  height: 85%;
+}
+
+.img-size {
+  width: 100%;
+  height: 300px;
+}
+
+.img-shadow {
+  filter: drop-shadow(2px 2px 2px rgba(0,0,0,.15));
+}
+
+.object-position-center-top{
+  object-position: center top;
+}
+
+.blob {
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  border: 2px solid #343a40;
+  border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
+  animation: animated 5s linear infinite alternate-reverse;
+}
+
+@keyframes animated {
+  0% {
+    border-radius: 50% 60% 70% 60% / 70% 60% 50% 60%;
+  }
+  50% {
+    border-radius: 60% 70% 50% 60% / 60% 50% 70% 60%;
+  }
+  100% {
+    border-radius: 50% 50% 50% 70% / 50% 50% 50% 70%;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (max-width: 576px) {
+  .img-size {
+    width: 100%;
+    height: 250px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .img-full {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media (max-width: 768px) and (min-width: 576px) {
+  .img-size {
+    width: 100%;
+    height: 250px;
+  }
+
+  .img-full {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media (max-width: 992px) and (min-width: 768px) {
+  .img-size {
+    width: 100%;
+    height: 365px;
+  }
+
+  .img-full {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media (max-width: 1200px) and (min-width: 992px) {
+  .img-size {
+    width: 100%;
+    height: 330px;
+  }
+
+  .img-full {
+    width: 100%;
+    height: 100%;
   }
 }

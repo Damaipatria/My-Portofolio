@@ -1,0 +1,19 @@
+.button {
+  padding: 5px 30px 5px 30px;
+  font-weight: 500;
+  font-size: 17px;
+  color: white;
+  background-color: #C70000;
+}
+
+.button:hover {
+  background-color: #b40000;
+}
+
+.button:active {
+  background-color: #8d0101;
+}
+
+.svg-inline--fa.fa-lg {
+  vertical-align: -5.5px !important;
+}

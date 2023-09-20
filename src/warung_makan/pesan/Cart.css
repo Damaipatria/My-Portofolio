@@ -1,0 +1,26 @@
+.cart-width {
+  width: 380px;
+}
+
+.cart-max-heigth {
+  max-height: 455px;
+}
+
+.list-cart-height {
+  height: 300px;
+}
+
+.button-sm {
+  font-size: 15px;
+  padding: 0px 5px 2px 5px;
+  color: white;
+  background-color: #C70000;
+}
+
+.button-sm:hover {
+  background-color: #b40000;
+}
+
+.button-sm:active {
+  background-color: #8d0101;
+}

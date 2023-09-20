@@ -1,0 +1,15 @@
+.star-line {
+  font-size: 14px;
+}
+
+.star-fill {
+  font-size: 14px;
+  position: absolute;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 0%;
+}
+
+.mx-custom {
+  margin: 0 2px;
+}

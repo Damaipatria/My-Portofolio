@@ -1,0 +1,25 @@
+.img-width {
+  width: 100%;
+  object-fit: cover;
+  filter: brightness(60%) contrast(110%);
+}
+
+.mt-n-100 {
+  margin-top: -100px;
+}
+
+.max-width {
+  max-width: 600px;
+}
+
+.line-header {
+  margin: auto;
+  width: 380px;
+  height: 6px;
+  background-color: #FFC701;
+  border-radius: 5px;
+}
+
+.display-button {
+  display: none;
+}

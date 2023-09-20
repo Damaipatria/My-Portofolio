@@ -1,0 +1,50 @@
+.text-justify {
+  text-align: justify;
+}
+
+.btn-tab {
+  padding: 5px 12px 5px 12px;
+  font-weight: 600;
+  font-size: 1rem;
+  color: #2B2B2B;
+  background-color: white;
+  border-width: 0px;
+}
+
+.btn-tab:hover {
+  color: #000000;
+  border-bottom: 2px solid #000000;
+}
+
+.btn-tab:active {
+  color: #8d0101;
+  border-bottom: 2px solid #8d0101;
+}
+
+.border-button {
+  border-bottom: 2px solid #666666;
+}
+
+.border-button-active {
+  color: #C70000 !important;
+  border-bottom: 2px solid #C70000 !important;
+}
+
+.floating-button {
+  padding: 10px 13.57px;
+  font-size: 19px;
+  background-color: #C70000;
+  color: white;
+}
+
+.floating-button:hover {
+  background-color: #b40000;
+}
+
+.floating-button:active {
+  background-color: #8d0101;
+}
+
+.bg-yellow {
+  background-color: #FFC701;
+}

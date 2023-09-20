@@ -21,3 +21,8 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# file or folder
+/src/rental_mobil
+/src/warung_makan/checkout
+/src/CardPortofolio.jsx

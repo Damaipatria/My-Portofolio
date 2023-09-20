@@ -1,0 +1,15 @@
+.btn-dark-red {
+  padding: 5px 30px 5px 30px;
+  font-weight: 500;
+  font-size: 17px;
+  color: white;
+  background-color:#C70000;
+}
+
+.btn-dark-red:hover {
+  background-color: #b40000;
+}
+
+.btn-dark-red:active {
+  background-color: #8d0101;
+}
