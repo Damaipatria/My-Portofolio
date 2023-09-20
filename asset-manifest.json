@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.ae090394.css",
-    "main.js": "/static/js/main.a8840e39.js",
-    "static/media/header.jpg": "/static/media/header.cd388761d9d2534799bf.jpg",
-    "static/media/hotdog.jpg": "/static/media/hotdog.c92faf943e8b4aa717f2.jpg",
-    "static/media/es-jeruk.jpg": "/static/media/es-jeruk.93513a6e2b8ba468c37c.jpg",
-    "static/media/nasi-goreng.jpg": "/static/media/nasi-goreng.88817090f8c9254838d6.jpg",
-    "static/media/pizza.jpg": "/static/media/pizza.10b72389ccb9e6aff223.jpg",
-    "static/media/hamburger.jpg": "/static/media/hamburger.f98c3211bb6b0d09cc5a.jpg",
-    "static/media/chef.jpg": "/static/media/chef.4d34f7a65a8f7a6128a8.jpg",
-    "static/media/grocery.jpg": "/static/media/grocery.894fad328684ae715aac.jpg",
-    "static/media/es-teh.jpg": "/static/media/es-teh.3b2571ba9a4a4fff1818.jpg",
-    "static/media/coding_image.jpg": "/static/media/coding_image.7300dcf19af89c619d2b.jpg",
-    "static/media/warung_makan_sepuasnya.png": "/static/media/warung_makan_sepuasnya.0e0f9c149cdb4ed37c5f.png",
-    "static/media/laravel_logo.png": "/static/media/laravel_logo.cb95b1a0c9cf51a930df.png",
-    "static/media/react_logo.png": "/static/media/react_logo.f3e576ba08e6be927148.png",
-    "static/media/css_logo.png": "/static/media/css_logo.c5583d093ec16d030195.png",
-    "static/media/bootstrap_logo.png": "/static/media/bootstrap_logo.602d194d2e51dd737c29.png",
-    "static/media/python_logo.png": "/static/media/python_logo.9c47735ea0c4a2d20349.png",
-    "index.html": "/index.html",
-    "main.ae090394.css.map": "/static/css/main.ae090394.css.map",
-    "main.a8840e39.js.map": "/static/js/main.a8840e39.js.map"
+    "main.css": "/My-Protofolio/static/css/main.ae090394.css",
+    "main.js": "/My-Protofolio/static/js/main.c849f192.js",
+    "static/media/header.jpg": "/My-Protofolio/static/media/header.cd388761d9d2534799bf.jpg",
+    "static/media/hotdog.jpg": "/My-Protofolio/static/media/hotdog.c92faf943e8b4aa717f2.jpg",
+    "static/media/es-jeruk.jpg": "/My-Protofolio/static/media/es-jeruk.93513a6e2b8ba468c37c.jpg",
+    "static/media/nasi-goreng.jpg": "/My-Protofolio/static/media/nasi-goreng.88817090f8c9254838d6.jpg",
+    "static/media/pizza.jpg": "/My-Protofolio/static/media/pizza.10b72389ccb9e6aff223.jpg",
+    "static/media/hamburger.jpg": "/My-Protofolio/static/media/hamburger.f98c3211bb6b0d09cc5a.jpg",
+    "static/media/chef.jpg": "/My-Protofolio/static/media/chef.4d34f7a65a8f7a6128a8.jpg",
+    "static/media/grocery.jpg": "/My-Protofolio/static/media/grocery.894fad328684ae715aac.jpg",
+    "static/media/es-teh.jpg": "/My-Protofolio/static/media/es-teh.3b2571ba9a4a4fff1818.jpg",
+    "static/media/coding_image.jpg": "/My-Protofolio/static/media/coding_image.7300dcf19af89c619d2b.jpg",
+    "static/media/warung_makan_sepuasnya.png": "/My-Protofolio/static/media/warung_makan_sepuasnya.0e0f9c149cdb4ed37c5f.png",
+    "static/media/laravel_logo.png": "/My-Protofolio/static/media/laravel_logo.cb95b1a0c9cf51a930df.png",
+    "static/media/react_logo.png": "/My-Protofolio/static/media/react_logo.f3e576ba08e6be927148.png",
+    "static/media/css_logo.png": "/My-Protofolio/static/media/css_logo.c5583d093ec16d030195.png",
+    "static/media/bootstrap_logo.png": "/My-Protofolio/static/media/bootstrap_logo.602d194d2e51dd737c29.png",
+    "static/media/python_logo.png": "/My-Protofolio/static/media/python_logo.9c47735ea0c4a2d20349.png",
+    "index.html": "/My-Protofolio/index.html",
+    "main.ae090394.css.map": "/My-Protofolio/static/css/main.ae090394.css.map",
+    "main.c849f192.js.map": "/My-Protofolio/static/js/main.c849f192.js.map"
   },
   "entrypoints": [
     "static/css/main.ae090394.css",
-    "static/js/main.a8840e39.js"
+    "static/js/main.c849f192.js"
   ]
 }
