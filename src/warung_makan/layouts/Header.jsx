@@ -2,6 +2,7 @@ import { Container, Nav, Navbar } from "react-bootstrap";
 import headerImg from '../../assets/img/warung_makan/header.jpg';
 import MyButton from "../components/MyButton";
 import './Header.css';
+import { Link } from "react-router-dom";
 
 function Header(props) {
   return (
@@ -9,13 +10,21 @@ function Header(props) {
       <div>
         <Navbar expand="lg" data-bs-theme="dark" className="p-0 z-2" style={{ backgroundColor: '#202020' }}>
           <Container>
-            <Navbar.Brand href="/My-Protofolio/#/warung-makan/beranda" className="fw-medium fs-4 text-uppercase text-white">RM.Sepuasnya</Navbar.Brand>
+            <Navbar.Brand >
+              <Link to='/warung-makan/beranda' className="fw-medium fs-4 text-uppercase text-white text-decoration-none">RM.Sepuasnya</Link>
+            </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav" className="justify-content-center text-white">
               <Nav >
-                <Nav.Link href="/My-Protofolio/#/warung-makan/beranda" className="text-white mx-3">Beranda</Nav.Link>
-                <Nav.Link href="/My-Protofolio/#/warung-makan/pesan" className="text-white mx-3">Pesan</Nav.Link>
-                <Nav.Link href="/My-Protofolio/#/warung-makan/kontak-kami" className="text-white mx-3">Kontak Kami</Nav.Link>
+                <Nav.Link>
+                  <Link to='/warung-makan/beranda' className="text-white mx-3 text-decoration-none">Beranda</Link>
+                </Nav.Link>
+                <Nav.Link>
+                  <Link to='/warung-makan/pesan' className="text-white mx-3 text-decoration-none">Pesan</Link>
+                </Nav.Link>
+                <Nav.Link>
+                  <Link to='/warung-makan/kontak-kami' className="text-white mx-3 text-decoration-none">Kontak Kami</Link>
+                </Nav.Link>
               </Nav>
             </Navbar.Collapse>
           </Container>

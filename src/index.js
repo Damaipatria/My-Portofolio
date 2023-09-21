@@ -14,9 +14,9 @@ root.render(
     <Routes>
       <Route path='/' Component={App} />
 
-      <Route path='warung-makan/beranda' Component={BerandaWM} />
-      <Route path='warung-makan/pesan' Component={PesanWM} />
-      <Route path='warung-makan/kontak-kami' Component={KontakKamiWM} />
+      <Route path='/warung-makan/beranda' Component={BerandaWM} />
+      <Route path='/warung-makan/pesan' Component={PesanWM} />
+      <Route path='/warung-makan/kontak-kami' Component={KontakKamiWM} />
 
     </Routes>
   </HashRouter>

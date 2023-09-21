@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { faLinkedinIn, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faGlobe, faArrowRightFromBracket, faArrowUp } from '@fortawesome/free-solid-svg-icons';
 import { faEnvelope as farEnvelope } from '@fortawesome/free-regular-svg-icons';
@@ -5,7 +6,12 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Portofolio from './assets/data/Portofolio'
 import './App.css';
 
-function App(props) {
+function App() {
+  const handleAnchorLink = (id) => {
+    const element = document.getElementById(id)
+    element.scrollIntoView()
+  }
+
   return (
     <>
       <header>
@@ -18,16 +24,24 @@ function App(props) {
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
               <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                 <li className="nav-item">
-                  <a className="nav-link font-nunito active" href="/">Home</a>
+                  <Link to='/' className="nav-link font-nunito active">
+                    Beranda
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link font-nunito" href="#tentangsaya">Tentang Saya</a>
+                  <button className="nav-link font-nunito" onClick={() => handleAnchorLink('tentangsaya')}>
+                    Tentang Saya
+                  </button>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link font-nunito" href="#portofolio">Portofolio</a>
+                  <button className="nav-link font-nunito" onClick={() => handleAnchorLink('portofolio')}>
+                    Portofolio
+                  </button>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link font-nunito" href="#kontaksaya">Kontak Saya</a>
+                  <button className="nav-link font-nunito" onClick={() => handleAnchorLink('kontaksaya')}>
+                    Kontak Saya
+                  </button>
                 </li>
               </ul>
             </div>
@@ -183,12 +197,12 @@ function App(props) {
                             </a>
                           </div>
                           <div className='col-4 text-center'>
-                            <a href={`/My-Protofolio/${item.demo}`} target='blank' className='text-decoration-none text-dark'>
+                            <Link to={item.demo} target='blank' className='text-decoration-none text-dark'>
                               <span className='me-3 fs-5'>
                                 Demo
                               </span>
                               <FontAwesomeIcon icon={faArrowRightFromBracket} className='fs-5' />
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -212,23 +226,29 @@ function App(props) {
             <div className='col-md-8 col-12 order-md-2 order-3 px-0'>
               <ul className="nav justify-content-md-center justify-content-evenly">
                 <li className="nav-item">
-                  <a className="nav-link px-md-3 px-1 text-dark font-nunito" href="/">Home</a>
+                  <Link className="nav-link px-md-3 px-1 text-dark font-nunito" to='/'>Beranda</Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link px-md-3 px-1 text-dark font-nunito" href="#tentangsaya">Tentang Saya</a>
+                  <button className="nav-link px-md-3 px-1 text-dark font-nunito" onClick={() => handleAnchorLink('tentangsaya')}>
+                    Tentang Saya
+                  </button>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link px-md-3 px-1 text-dark font-nunito" href='#portofolio'>Portofolio</a>
+                  <button className="nav-link px-md-3 px-1 text-dark font-nunito" onClick={() => handleAnchorLink('portofolio')}>
+                    Portofolio
+                  </button>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link px-md-3 px-1 text-dark font-nunito" href="#kontaksaya">Kontak Saya</a>
+                  <button className="nav-link px-md-3 px-1 text-dark font-nunito" onClick={() => handleAnchorLink('kontaksaya')}>
+                    Kontak Saya
+                  </button>
                 </li>
               </ul>
             </div>
             <div className='col-md-2 col-3 order-md-3 order-2 text-end'>
-              <a href='#top' className='text-dark fw-bold font-nunito'>
+              <button className='text-dark fw-bold font-nunito text-decoration-underline btn' onClick={() => handleAnchorLink('top')}>
                 Top <i><FontAwesomeIcon icon={faArrowUp} className='ms-1' /></i>
-              </a>
+              </button>
             </div>
           </div>
           <div className='row'>
