@@ -79,15 +79,15 @@ function App() {
                       </a>
                     </li>
                     <li className='text-center fs-6'>
-                      <a href='/' className='text-dark'>
+                      <Link to='/' className='text-dark'>
                         <FontAwesomeIcon icon={faGlobe} />
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
                 <div className='col-10'>
-                  <p className='mb-0 fs-6 text-black'>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                  <p className='mb-0 fs-6 text-black text-justify'>
+                    Saya adalah Web Developer, Data Analyst dan Data Scientist yang kreatif, inovatif, mampu bekerja dalam tim serta sedang terbuka untuk bekerja.
                   </p>
                 </div>
               </div>
@@ -245,7 +245,7 @@ function App() {
                 </li>
               </ul>
             </div>
-            <div className='col-md-2 col-3 order-md-3 order-2 text-end'>
+            <div className='col-md-2 col-3 order-md-3 col-4 order-2 text-end'>
               <button className='text-dark fw-bold font-nunito text-decoration-underline btn' onClick={() => handleAnchorLink('top')}>
                 Top <i><FontAwesomeIcon icon={faArrowUp} className='ms-1' /></i>
               </button>
