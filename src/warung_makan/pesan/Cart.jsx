@@ -57,11 +57,13 @@ function Cart(props) {
                   <p className='fw-bold mb-0'>Total</p>
                 </div>
                 <div className="col">
-                  <p className='text-end fw-bold mb-0'>
-                    {props.pesanan.reduce((total, item) => {
-                      return total + (item.harga * item.jumlah)
-                    }, 'tidak ada')}
-                  </p>
+                  {props.pesanan.length === 0 ? <p className='text-end fw-bold mb-0'>Kosong</p> :
+                    <p className='text-end fw-bold mb-0'>
+                      {props.pesanan.reduce((total, item) => {
+                        return total + (item.harga * item.jumlah)
+                      }, [])}
+                    </p>
+                  }
                 </div>
               </div>
             </div>

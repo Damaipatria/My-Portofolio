@@ -5,7 +5,7 @@ require('./MyButton.css')
 function MyButton(props) {
   return (
     <>
-      <a href={props.href}>
+      <a href=''>
         <button className='button border-0 rounded-2'>
           <span>
             {props.namaButton}

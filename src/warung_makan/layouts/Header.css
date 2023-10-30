@@ -4,12 +4,12 @@
   filter: brightness(60%) contrast(110%);
 }
 
-.mt-n-100 {
-  margin-top: -100px;
-}
-
 .max-width {
   max-width: 600px;
+}
+
+.font-header-size {
+  font-size: 40px;
 }
 
 .line-header {
@@ -22,4 +22,14 @@
 
 .display-button {
   display: none;
+}
+
+@media (max-width: 576px) {
+  .font-header-size {
+    font-size: 30px;
+  }
+
+  .line-header {
+    width: 300px;
+  }
 }

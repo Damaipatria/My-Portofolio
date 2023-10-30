@@ -29,14 +29,14 @@ function Header(props) {
             </Navbar.Collapse>
           </Container>
         </Navbar>
-        <div className="position-relative z-1 mt-n-100 ">
+        <div className="position-relative">
           <img src={headerImg} alt="Gambar Makanan" className="img-width" style={{ height: props.imgHeight }} />
-          <div className="position-absolute top-50 start-50 translate-middle text-white text-center mt-5 max-width">
-            <h1 className="text-uppercase fw-semibold mb-3" style={{ fontSize: '40px' }}>{props.judulHeader}</h1>
+          <div className="position-absolute top-50 start-50 translate-middle text-white text-center max-width">
+            <h1 className="text-uppercase fw-semibold mb-3 font-header-size">{props.judulHeader}</h1>
             <div className="line-header mb-3"></div>
             <p className="pb-3">{props.paragrafHeader}</p>
             <div className="mt-5" style={{ display: props.displayButton }}>
-              <MyButton href='#pesanSekarang' namaButton='Pesan sekarang' />
+              <MyButton namaButton='Pesan sekarang' />
             </div>
           </div>
         </div>

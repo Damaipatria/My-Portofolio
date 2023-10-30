@@ -113,7 +113,7 @@ function Pesan() {
           {filter.map((item, index) => {
             return (
               <Col xxl={3} xl={4} lg={4} md={6} sm={12} className='py-xl-3 py-lg-1 py-md-3 py-2' key={index}>
-                <Card className='shadow border-0' style={{ height: '100%', width: '315px', margin: 'auto' }}>
+                <Card className='shadow border-0 card-width' style={{ height: '100%', margin: 'auto' }}>
                   <Card.Body className='py-2 px-2'>
                     <img src={require(`../../assets/img/warung_makan/menu/${item.img}.jpg`)} alt="menu" className='img-fluid rounded-2' />
                   </Card.Body>

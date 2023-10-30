@@ -30,6 +30,10 @@
   border-bottom: 2px solid #C70000 !important;
 }
 
+.card-width {
+  width: 315px;
+}
+
 .floating-button {
   padding: 10px 13.57px;
   font-size: 19px;
@@ -47,4 +51,10 @@
 
 .bg-yellow {
   background-color: #FFC701;
+}
+
+@media (max-width: 576px) {
+  .card-width {
+    width: 300px;
+  }
 }
