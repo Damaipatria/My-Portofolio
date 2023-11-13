@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/My-Portofolio/static/css/main.f82f87d1.css",
-    "main.js": "/My-Portofolio/static/js/main.3a74950d.js",
+    "main.css": "/My-Portofolio/static/css/main.518bb31a.css",
+    "main.js": "/My-Portofolio/static/js/main.be44a24c.js",
     "static/media/header.jpg": "/My-Portofolio/static/media/header.cd388761d9d2534799bf.jpg",
     "static/media/hotdog.jpg": "/My-Portofolio/static/media/hotdog.c92faf943e8b4aa717f2.jpg",
+    "static/media/film-bagus.png": "/My-Portofolio/static/media/film-bagus.1daac080cb7a6489894f.png",
     "static/media/es-jeruk.jpg": "/My-Portofolio/static/media/es-jeruk.93513a6e2b8ba468c37c.jpg",
     "static/media/nasi-goreng.jpg": "/My-Portofolio/static/media/nasi-goreng.88817090f8c9254838d6.jpg",
     "static/media/pizza.jpg": "/My-Portofolio/static/media/pizza.10b72389ccb9e6aff223.jpg",
@@ -20,11 +21,11 @@
     "static/media/bootstrap_logo.png": "/My-Portofolio/static/media/bootstrap_logo.602d194d2e51dd737c29.png",
     "static/media/python_logo.png": "/My-Portofolio/static/media/python_logo.9c47735ea0c4a2d20349.png",
     "index.html": "/My-Portofolio/index.html",
-    "main.f82f87d1.css.map": "/My-Portofolio/static/css/main.f82f87d1.css.map",
-    "main.3a74950d.js.map": "/My-Portofolio/static/js/main.3a74950d.js.map"
+    "main.518bb31a.css.map": "/My-Portofolio/static/css/main.518bb31a.css.map",
+    "main.be44a24c.js.map": "/My-Portofolio/static/js/main.be44a24c.js.map"
   },
   "entrypoints": [
-    "static/css/main.f82f87d1.css",
-    "static/js/main.3a74950d.js"
+    "static/css/main.518bb31a.css",
+    "static/js/main.be44a24c.js"
   ]
 }
