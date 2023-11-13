@@ -13,7 +13,7 @@ const Portofolio = [
     judul: 'Film Bagus',
     teknologi: ['React', 'Tailwindcss', 'Vite'],
     deskripsi: 'Website ini menampilkan film - film dan series yang terinspirasi dengan website streaming platform seperti Nefflix. Website ini saya buat dengan menggunakan React JS serta Tailwindcss dan menggunakan Vite.',
-    code: '',
+    code: 'https://github.com/Damaipatria/Film-Bagus',
     demo: 'https://film-bagus.vercel.app/',
     img: 'film-bagus'
   },
